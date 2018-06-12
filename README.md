@@ -4,8 +4,8 @@ Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Acc
 Junjie Hu, Mete Ozay, Yan Zhang, Takayuki Okatani https://arxiv.org/abs/1803.08673
 
 Citation
-->
-@article{hu2018revisiting,<br>
+-
+>@article{hu2018revisiting,<br>
 title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries},<br>
 author={Hu, Junjie and Ozay, Mete and Zhang, Yan and Okatani, Takayuki},<br>
 journal={arXiv preprint arXiv:1803.08673},<br>
