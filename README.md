@@ -7,7 +7,7 @@ Citation
 -
 >@article{hu2018revisiting,<br>
 title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries},<br>
-author={Hu, Junjie and Ozay, Mete and Zhang, Yan and Okatani, Takayuki},<br>
+author={Junjie Hu and Mete Ozay and Yan Zhang and Takayuki Okatani},<br>
 journal={arXiv preprint arXiv:1803.08673},<br>
 year={2018}<br>
 }
