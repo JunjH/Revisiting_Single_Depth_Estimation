@@ -15,6 +15,5 @@ year={2018}<br>
 Running
 -
 Download the pretrained model:
-https://drive.google.com/file/d/1DblqU-ZAgWmHa-aC96mIBi-8Rh7bb2Ww/view?usp=sharing
-
+https://drive.google.com/file/d/1DblqU-ZAgWmHa-aC96mIBi-8Rh7bb2Ww/view?usp=sharing<br>
 And run the demo file.
