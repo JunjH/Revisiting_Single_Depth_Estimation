@@ -12,8 +12,13 @@ journal={arXiv preprint arXiv:1803.08673},<br>
 year={2018}<br>
 }
 
+Dependencies
+-
+*python 2.7<br>
+*Pytorch 3.1<br>
+
 Running
 -
-Download the pretrained model:
+*Download the pretrained model:
 https://drive.google.com/file/d/1DblqU-ZAgWmHa-aC96mIBi-8Rh7bb2Ww/view?usp=sharing<br>
-And run the demo file.
+*Run the demo file.
