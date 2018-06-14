@@ -45,7 +45,6 @@ def test(nyu2_loader, base_net, refine_net):
       
         out_base, xb1, xb2, xb3, xb4 = base_net(image)
         out_refine = refine_net(out_base, xb1, xb2, xb3, xb4)
-        # pdb.set_trace()
         
         matplotlib.image.imsave('data/pred_nyu2_base'+str(i)+'.png', out_base.view(out_base.size(2),out_base.size(3)).data.cpu().numpy())
         matplotlib.image.imsave('data/pred_nyu2_refine'+str(i)+'.png', out_refine.view(out_base.size(2),out_base.size(3)).data.cpu().numpy())
