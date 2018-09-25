@@ -26,13 +26,11 @@ https://drive.google.com/file/d/1WoOZOBpOWfmwe7bknWS5PMUCLBPFKTOw/view?usp=shari
 
 Running
 -
-Demo
-##
++ Demo
 python demo.py<br>
-Test
-##
++ Test
 python test.py<br>
-Training
-##
++ Training
 python train.py<br>
+
 
