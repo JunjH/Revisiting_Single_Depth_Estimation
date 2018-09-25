@@ -5,25 +5,20 @@ import numpy as np
 def lg10(x):
     return torch.div(torch.log(x), math.log(10))
 
-
 def maxOfTwo(x, y):
     z = x.clone()
     maskYLarger = torch.lt(x, y)
     z[maskYLarger.detach()] = y[maskYLarger.detach()]
     return z
 
-
 def nValid(x):
     return torch.sum(torch.eq(x, x).float())
-
 
 def nNanElement(x):
     return torch.sum(torch.ne(x, x).float())
 
-
 def getNanMask(x):
     return torch.ne(x, x)
-
 
 def setNanToZero(input, target):
     nanMask = getNanMask(target)
@@ -54,7 +49,6 @@ def evaluateError(output, target):
         realMatrix = torch.div(diffMatrix, _target)
         realMatrix[nanMask] = 0
         errors['ABS_REL'] = torch.sum(realMatrix) / nValidElement
-
 
         LG10Matrix = torch.abs(lg10(_output) - lg10(_target))
         LG10Matrix[nanMask] = 0
@@ -101,7 +95,6 @@ def averageErrors(errorSum, N):
                     'MAE': 0,  'DELTA1': 0, 'DELTA2': 0, 'DELTA3': 0}
 
     averageError['MSE'] = errorSum['MSE'] / N
-    averageError['RMSE'] = np.sqrt(errorSum['MSE'])
     averageError['ABS_REL'] = errorSum['ABS_REL'] / N
     averageError['LG10'] = errorSum['LG10'] / N
     averageError['MAE'] = errorSum['MAE'] / N
