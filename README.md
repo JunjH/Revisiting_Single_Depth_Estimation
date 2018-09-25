@@ -25,10 +25,14 @@ https://drive.google.com/file/d/1QaUkdOiGpMuzMeWCGbey0sT0wXY0xtsj/view?usp=shari
 https://drive.google.com/file/d/1WoOZOBpOWfmwe7bknWS5PMUCLBPFKTOw/view?usp=sharing<br>
 
 Running
-+ Run the demo file.
-python demo.py
-+ Run the test file.
-python test.py
-+ Run the training file.
-python train.py
+-
+Demo
+##
+python demo.py<br>
+Test
+##
+python test.py<br>
+Training
+##
+python train.py<br>
 
