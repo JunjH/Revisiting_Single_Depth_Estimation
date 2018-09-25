@@ -17,8 +17,18 @@ Dependencies
 + python 2.7<br>
 + Pytorch 3.1<br>
 
-Running
+Download
 -
 + Download the pretrained model:
-https://drive.google.com/file/d/1DblqU-ZAgWmHa-aC96mIBi-8Rh7bb2Ww/view?usp=sharing<br>
+https://drive.google.com/file/d/1QaUkdOiGpMuzMeWCGbey0sT0wXY0xtsj/view?usp=sharing<br>
++ Download the data:
+https://drive.google.com/file/d/1WoOZOBpOWfmwe7bknWS5PMUCLBPFKTOw/view?usp=sharing<br>
+
+Running
 + Run the demo file.
+python demo.py
++ Run the test file.
+python test.py
++ Run the training file.
+python train.py
+
