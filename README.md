@@ -3,6 +3,8 @@
 Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries<br>
 Junjie Hu, Mete Ozay, Yan Zhang, Takayuki Okatani https://arxiv.org/abs/1803.08673
 
+![cannot load image](https://github.com/junjH/Revisiting_Single_Depth_Estimation/tree/master/examples/example.png)
+
 Citation
 -
 >@article{hu2018revisiting,<br>
