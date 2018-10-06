@@ -1,24 +1,17 @@
 # Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries
 <br>
-Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries<br>
 Junjie Hu, Mete Ozay, Yan Zhang, Takayuki Okatani https://arxiv.org/abs/1803.08673
 
-![](https://github.com/junjH/Revisiting_Single_Depth_Estimation/raw/master/examples/example.png)
-
-Citation
+Results
 -
->@article{hu2018revisiting,<br>
-title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries},<br>
-author={Junjie Hu and Mete Ozay and Yan Zhang and Takayuki Okatani},<br>
-journal={arXiv preprint arXiv:1803.08673},<br>
-year={2018}<br>
-}
+![](https://github.com/junjH/Revisiting_Single_Depth_Estimation/raw/master/examples/example.png)
+![](https://github.com/junjH/Revisiting_Single_Depth_Estimation/raw/master/examples/results.png)
+
 
 Dependencies
 -
 + python 2.7<br>
 + Pytorch 3.1<br>
-
 
 Running
 -
@@ -34,4 +27,11 @@ https://drive.google.com/file/d/1WoOZOBpOWfmwe7bknWS5PMUCLBPFKTOw/view?usp=shari
 + ### Training<br>
   python train.py<br>
 
-
+Citation
+-
+>@article{hu2018revisiting,<br>
+title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries},<br>
+author={Junjie Hu and Mete Ozay and Yan Zhang and Takayuki Okatani},<br>
+journal={arXiv preprint arXiv:1803.08673},<br>
+year={2018}<br>
+}
