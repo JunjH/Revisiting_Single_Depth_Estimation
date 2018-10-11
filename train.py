@@ -152,11 +152,7 @@ class AverageMeter(object):
         self.avg = self.sum / self.count
 
 
-def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
-    directory = "runs/%s/" % (args.name)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-    filename = directory + filename
+def save_checkpoint(state, filename='checkpoint.pth.tar'):
     torch.save(state, filename)
 
 
