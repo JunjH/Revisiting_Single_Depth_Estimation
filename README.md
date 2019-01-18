@@ -34,6 +34,8 @@ If you use the code or the pre-processed data, please consider to cite:
 >@article{hu2018revisiting,<br>
 title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries},<br>
 author={Junjie Hu and Mete Ozay and Yan Zhang and Takayuki Okatani},<br>
-journal={arXiv:1803.08673},<br>
-year={2018}<br>
+booktitle={IEEE Winter Conf. on Applications of Computer Vision (WACV)},<br>
+year={2019}<br>
 }
+
+
