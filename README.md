@@ -29,7 +29,7 @@ https://drive.google.com/file/d/1WoOZOBpOWfmwe7bknWS5PMUCLBPFKTOw/view?usp=shari
 
 Citation
 -
-If you use the code or the pre-processed data, please consider to cite:
+If you use the code or the pre-processed data, please cite:
 
 >@inproceedings{hu2018revisiting,<br>
 title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps with Accurate Object Boundaries},<br>
