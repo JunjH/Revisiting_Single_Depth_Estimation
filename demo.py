@@ -1,11 +1,12 @@
-import argparse
+from fire import Fire
+import numpy as np
+from PIL import Image
+from scipy.misc import imresize
 import torch
 import torch.nn.parallel
 
 from models import modules, net, resnet, densenet, senet
-import numpy as np
 import loaddata_demo as loaddata
-import pdb
 
 import matplotlib.image
 import matplotlib.pyplot as plt
@@ -29,23 +30,34 @@ def define_model(is_resnet, is_densenet, is_senet):
     return model
    
 
-def main():
+def main(image_path):
     model = define_model(is_resnet=False, is_densenet=False, is_senet=True)
-    model = torch.nn.DataParallel(model).cuda()
-    model.load_state_dict(torch.load('./pretrained_model/model_senet'))
+    model = torch.nn.DataParallel(model)
+    if torch.cuda.is_available():
+        model = model.cuda()
+    model.load_state_dict(torch.load(
+        f='./pretrained_model/model_senet',
+        map_location=None if torch.cuda.is_available() else 'cpu'))
     model.eval()
 
-    nyu2_loader = loaddata.readNyu2('data/demo/img_nyu2.png')
+    nyu2_loader = loaddata.readNyu2(image_path)
   
     test(nyu2_loader, model)
 
 
 def test(nyu2_loader, model):
     for i, image in enumerate(nyu2_loader):     
-        image = torch.autograd.Variable(image, volatile=True).cuda()
+        image = torch.autograd.Variable(image, volatile=True)
+        if torch.cuda.is_available():
+            image = image.cuda()
         out = model(image)
-        
-        matplotlib.image.imsave('data/demo/out.png', out.view(out.size(2),out.size(3)).data.cpu().numpy())
+
+        out = out.view(out.size(2), out.size(3)).data.cpu().numpy()
+        input_shape = image.data.cpu().numpy().shape[2:4]
+        out = imresize(arr=out, size=input_shape)
+        Image.fromarray(out.astype(np.uint8)).save('data/demo/out.png')
+
+        # matplotlib.image.imsave('data/demo/out.png', out)
 
 if __name__ == '__main__':
-    main()
+    Fire(main)

@@ -10,8 +10,6 @@ except ImportError:
 import random
 import scipy.ndimage as ndimage
 
-import pdb
-
 
 def _is_pil_image(img):
     if accimage is not None:
