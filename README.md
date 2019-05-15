@@ -31,11 +31,9 @@ Citation
 -
 If you use the code or the pre-processed data, please cite:
 
->@article{Hu2018RevisitingSI,<br>
-  title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps With Accurate Object Boundaries},<br>
-  author={Junjie Hu and Mete Ozay and Yan Zhang and Takayuki Okatani},<br>
-  journal={2019 IEEE Winter Conference on Applications of Computer Vision (WACV)},<br>
-  year={2018},<br>
-  pages={1043-1051}<br>
-}<br>
-
+    @inproceedings{Hu2018RevisitingSI,
+      title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps With Accurate Object Boundaries},
+      author={Junjie Hu and Mete Ozay and Yan Zhang and Takayuki Okatani},
+      booktitle={IEEE Winter Conf. on Applications of Computer Vision (WACV)},
+      year={2019}
+    }
