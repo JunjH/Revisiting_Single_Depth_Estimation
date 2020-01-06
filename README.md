@@ -11,7 +11,7 @@ Results
 Dependencies
 -
 + python 2.7<br>
-+ Pytorch 3.1<br>
++ Pytorch 0.3.1<br>
 
 Running
 -
