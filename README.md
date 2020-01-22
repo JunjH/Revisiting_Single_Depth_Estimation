@@ -24,7 +24,7 @@ Download the data:
   python demo.py<br>
 + ### Test<br>
   python test.py<br>
-+ ### Training<br>
++ ### Train<br>
   python train.py<br>
 
 Citation
