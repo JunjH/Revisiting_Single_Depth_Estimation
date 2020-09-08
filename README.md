@@ -31,9 +31,9 @@ Citation
 -
 If you use the code or the pre-processed data, please cite:
 
-      @inproceedings{Hu2019RevisitingSI,
-        title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps With Accurate Object Boundaries},
-        author={Junjie Hu and Mete Ozay and Yan Zhang and Takayuki Okatani},
-        journal={2019 IEEE Winter Conference on Applications of Computer Vision (WACV)},
-        year={2019}
-      }
+    @inproceedings{Hu2019RevisitingSI,
+      title={Revisiting Single Image Depth Estimation: Toward Higher Resolution Maps With Accurate Object Boundaries},
+      author={Junjie Hu and Mete Ozay and Yan Zhang and Takayuki Okatani},
+      journal={2019 IEEE Winter Conference on Applications of Computer Vision (WACV)},
+      year={2019}
+    }
