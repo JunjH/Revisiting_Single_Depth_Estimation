@@ -7,8 +7,6 @@ import torch.nn.parallel
 import torch.backends.cudnn as cudnn
 import torch.optim
 import loaddata
-import util
-import numpy as np
 import sobel
 from models import modules, net, resnet, densenet, senet
 

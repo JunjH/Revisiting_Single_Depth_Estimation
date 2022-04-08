@@ -1,6 +1,4 @@
-import argparse
 import torch
-import torch.nn as nn
 import torch.nn.parallel
 
 from models import modules, net, resnet, densenet, senet
